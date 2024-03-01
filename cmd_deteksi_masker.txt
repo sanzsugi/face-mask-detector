@@ -1,0 +1,27 @@
+pip install --user tensorflow-Cpu
+
+pip install --user opencv-python
+
+pip install --user imutils
+
+pip install --user playsound==1.2.2
+
+pip install --user plyer (except)
+
+pip install -U scikit-learn scipy matplotlib
+
+- training dataset :
+
+direktori > python train_mask_detector.py --dataset dataset
+
+- deteksi masker statis (with mask) :
+
+direktori > python detect_mask_image.py --image examples\masker_01.png
+
+- deteksi masker statis (without mask) :
+
+direktori > python detect_mask_image.py --image examples\non_masker_01.jpeg
+
+- deteksi masker real time :
+
+direktori > python detect_mask_video.py
